@@ -9,15 +9,25 @@
                 "$XTENSA_PATH/xtensa-esp32-elf/sysroot/usr/include/**",
                 "$XTENSA_PATH/xtensa-esp32-elf/include/**",                
                 "$XTENSA_PATH/include/**",
-                "$IDF_PATH/components"
-                           
+                "$IDF_PATH/components"            
             ],
             "defines": [],
             "compilerPath": "$XTENSA_PATH/bin",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "$XTENSA_PATH/lib/gcc/xtensa-esp32-elf/5.2.0/include/**",
+                    "$XTENSA_PATH/lib/gcc/xtensa-esp32-elf/5.2.0/include-fixed/**",
+                    "$XTENSA_PATH/xtensa-esp32-elf/sysroot/usr/include/**",
+                    "$XTENSA_PATH/xtensa-esp32-elf/include/**",                
+                    "$XTENSA_PATH/include/**",
+                    "$IDF_PATH/components"
+                ],
+            "limitSymbolsToIncludedHeaders": true,
+            }
         }
-    ],
+    ]
     "version": 4
 }
